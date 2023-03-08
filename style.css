@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/1248.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    background-repeat: no-repeat;
+    margin: 15px;
+    border-radius: 25px 10px 5px 0;
+    box-shadow: 10px 10px 8px #888;
+}
+
+.header img {
+    width: 210px;
+    cursor: pointer;
+}
+
+.header ul {
+    display: flex;
+    float: right;
+    margin-right: 40%;
+    margin-top: 80px;
+    list-style-type: none;
+}
+
+.header ul li {
+    margin: 0 40px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.header ul li a:hover{
+    color: rgb(175, 237, 251);
+    transition: 0.5s;
+}
+
+.header h1 {
+    font-size: 42px;
+}
+
+.header p {
+    font-style: italic;
+}
+
+.textBanner{
+    margin: 100px 0 0 50px;
+    padding: 12px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+}
+
+.creativeFresh img {
+    width: 50%;
+    padding: 18px;
+    float: left;
+    border-radius: 30px;
+}
+
+.creativeFreshText {
+    text-align: center;
+    padding: 30px;
+    float: left;
+    width: 45%;
+    margin-top: 6%;
+    margin-left: 40px;
+}
+
+.creativeFreshText h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 42px;
+    color: rgb(48, 48, 48);
+}
+
+.creativeFreshText h3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(48, 48, 48);
+}
+
+.creativeFreshText p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(48, 48, 48);
+    margin-top: 40px;
+}
+
+.creativeFreshText button {
+    color: rgb(48, 48, 48);
+    border: 2px solid black;
+    font-family: "Kanit", sans-serif;
+    text-transform:uppercase;
+    background-color: transparent;
+    padding: 14px 18px;
+    cursor: pointer;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.creativeFreshText button:hover{
+    background-color: gray;
+    color: white;
+    transition: 1s;
+    border: 2px solid gray;
+}
+
+
+.hipfunky img {
+    width: 50%;
+    padding: 18px;
+    float: right;
+    border-radius: 30px;
+    margin-top: 110px;
+}
+
+.hipfunkyText {
+    text-align: center;
+    padding: 30px;
+    float: left;
+    width: 45%;
+    margin-top: 6%;
+    margin-left: 40px;
+}
+
+.hipfunkyText h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 42px;
+    color: rgb(48, 48, 48);
+}
+
+.hipfunkyText h3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(48, 48, 48);
+}
+
+.hipfunkyText p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(48, 48, 48);
+    margin-top: 40px;
+}
+
+.hipfunkyText button {
+    color: rgb(48, 48, 48);
+    border: 2px solid black;
+    font-family: "Kanit", sans-serif;
+    text-transform:uppercase;
+    background-color: transparent;
+    padding: 14px 18px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.hipfunkyText button:hover{
+    background-color: gray;
+    color: white;
+    transition: 1s;
+    border: 2px solid gray;
+}
+
+.wedo img {
+    width: 50%;
+    padding: 18px;
+    float: left;
+    border-radius: 30px;
+    margin-top: 110px;
+}
+
+.wedoText {
+    text-align: center;
+    padding: 30px;
+    float: left;
+    width: 45%;
+    margin-top: 6%;
+    margin-left: 40px;
+}
+
+.wedoText h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 42px;
+    color: rgb(48, 48, 48);
+}
+
+.wedoText h3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(48, 48, 48);
+}
+
+.wedoText p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(48, 48, 48);
+    margin-top: 40px;
+}
+
+.wedoText button {
+    color: rgb(48, 48, 48);
+    border: 2px solid black;
+    font-family: "Kanit", sans-serif;
+    text-transform:uppercase;
+    background-color: transparent;
+    padding: 14px 18px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.wedoText button:hover{
+    background-color: gray;
+    color: white;
+    transition: 1s;
+    border: 2px solid gray;
+}
+
+.aboutUs {
+    float: left;
+    padding: 20px;
+}
+.aboutUs .one, .two, .three {
+    width: 33%;
+    display: inline-block;
+    padding: 45px;
+
+}
+
+.aboutUs h2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 42px;
+    color: rgb(48, 48, 48);
+    text-align: center;
+}
+
+.aboutUs p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(48, 48, 48);
+    text-align: center;
+}
+
+.aboutUs span {
+    font-size: 90px;
+    margin-left: 39%;
+}
+
+.aboutUs .one:hover{
+    background: rgba(219, 219, 48, 0.3);
+    transition: 0.7s;
+}
+
+.aboutUs .two:hover{
+    background: rgba(75, 241, 75, 0.3);
+    transition: 0.7s;
+}
+
+.aboutUs .three:hover{
+    background: rgba(252, 163, 100, 0.3);
+    transition: 0.7s;
+}
+
+.reviews {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    margin-top: 50px;
+}
+
+.reviews h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 42px;
+    color: rgb(48, 48, 48);
+}
+
+.reviews .words .review {
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(48, 48, 48);
+    font-style: italic;
+}
+
+.reviews .review {
+    font-size: 18px;
+    margin-top: 70px;
+    font-style: italic;
+
+}
+
+.creationsText {
+    float: left;
+    padding: 14px;
+    width: 25%;
+    margin-top: 40px;
+}
+
+.creationsText h2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 42px;
+    color: rgb(48, 48, 48);
+}
+
+.creationsText h3{
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(48, 48, 48);
+}
+
+.creationsText p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(48, 48, 48);
+    margin-top: 40px;
+}
+
+
+.myProjects img {
+    width: 24%;
+    height: 370px;
+    margin-top: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid grey;
+
+}
+
+.myProjects img:hover{
+    outline: 2px solid white;
+    outline-offset: -22px;
+    filter: brightness(50%);
+    transition: 0.8s;
+}
+
+.contact {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.contact h2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 42px;
+    color: rgb(48, 48, 48);
+}
+
+.contact p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(48, 48, 48);
+}
+
+.contact form{
+    padding: 12px;
+    margin: 25px;
+}
+
+.contact form label {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    color: rgb(48, 48, 48);
+    text-transform: uppercase;
+    margin: 4px;
+}
+
+.contact button {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    color: rgb(48, 48, 48);
+    padding: 12px 28px;
+    font-weight: 300px;
+}
+
+.contact button:hover{
+    background-color: gray;
+    color: white;
+    transition: 1s;
+    border: 2px solid gray;
+}
+
+.contact input, textarea {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+}
+
+
+.bottominfo {
+    background-color: #232323;
+    display: inline-flex;
+    width: 100%;
+    border: 10px solid white;
+}
+
+.bottominfo img{
+    color: white;
+    width: 320px;
+}
+
+.bottominfo ul {
+    width: 22%;
+    margin: 100px;
+}
+
+.bottominfo .bottominfohead{
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.bottominfo li{
+    list-style: none;
+    margin: 3px;
+    color: white;
+}
+
+.bottominfo ul li a {
+    text-decoration: none;
+    color: white;
+}
